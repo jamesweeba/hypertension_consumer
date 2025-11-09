@@ -14,7 +14,7 @@ voiceQueue.process('process', 2, async (job) => {
   let { phoneNumber, id, audioFileUrl } = job.data;
   executeVoice(phoneNumber, id, audioFileUrl)
   // console.log("ppppppppppppppppppppppppppppppppppppppppppppppppp")
-  // console.log(phoneNumber, id, audioFileUrl);
+   console.log(phoneNumber, id, audioFileUrl);
 });
 
 
